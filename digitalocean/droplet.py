@@ -134,7 +134,7 @@ class Droplet(SnakeletClass):
 
     return self.post('droplets/{:s}/actions'.format(droplet), params)
 
-  def resize(self, droplet, disk = None, size):
+  def resize(self, droplet, size, disk = None):
     """
       Resizes a Droplet
     """

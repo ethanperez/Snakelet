@@ -27,7 +27,7 @@ class Key(SnakeletClass):
     
     return self.getHttp('account/keys/{:s}'.format(id))
 
-  def update(self, id = None, fingerprint = None, name):
+  def update(self, name, id = None, fingerprint = None):
     """
       Updates the name of an SSH key
     """
