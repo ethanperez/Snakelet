@@ -20,7 +20,7 @@ easy_install snakelet
 
 ## Usage
 
-```
+```python
 from digitalocean import Snakelet
 
 s = Snaklet(token)
